@@ -1,7 +1,10 @@
 package com.efrei.coursorama.projetpa8;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,6 +18,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -96,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
                 if (test_id == true)
                 {
                     Log.i("DEBUG", "L'identifiant est déjà utilisé");
+
                 }
                 if (test_id == false)
                 {
@@ -105,6 +110,5 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-
-
 }
+
