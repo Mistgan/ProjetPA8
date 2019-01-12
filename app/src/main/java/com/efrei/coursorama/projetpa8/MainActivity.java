@@ -82,8 +82,6 @@ public class MainActivity extends AppCompatActivity {
                     }
                     else
                         Log.i("DEBUG", "Dsl je ne t'ai pas trouvé dans la bdd");
-
-
             }
         }
     };
@@ -106,5 +104,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     };
+
+
 
 }
