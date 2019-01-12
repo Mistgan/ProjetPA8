@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Projet PA8</string>
+    <string name="entrez_votre_identifiant">Entrez votre identifiant</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="identifiant">Identifiant</string>
+    <string name="connexion">Connexion</string>
+    <string name="NewAccount">+</string>
+    <string name="admin_usr">admin</string>
+    <string name="accueil">Accueil</string>
+    <string name="a_propos">A propos</string>
+    <string name="rayons">Rayons</string>
+    <string name="imgpanier">imgPanier</string>
+    <string name="budget">Budget</string>
+    <string name="title_activity_drawer">Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
