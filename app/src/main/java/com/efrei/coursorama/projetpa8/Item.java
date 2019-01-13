@@ -11,6 +11,7 @@ public class Item {
         mText2 = text2;
     }
 
+
     public int getImageResource() {
         return mImageResource;
     }

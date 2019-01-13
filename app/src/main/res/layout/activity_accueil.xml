@@ -83,7 +83,8 @@
         android:background="@color/colorPrimary"
         android:padding="4dp"
         android:scrollbars="vertical"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+    />
 
 
 </android.support.constraint.ConstraintLayout>
