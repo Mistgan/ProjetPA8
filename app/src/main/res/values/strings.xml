@@ -19,4 +19,6 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="test_textview">Test TextView</string>
+    <string name="fond_accueil">Fond_Accueil</string>
+    <string name="forgot_you_password">Forgot you Password ?</string>
 </resources>

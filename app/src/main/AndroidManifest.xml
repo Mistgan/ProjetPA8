@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Accueil">
+        <activity android:name=".Accueil"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <category android:name="android.intent.category.Accueil" />
             </intent-filter>
@@ -29,6 +30,8 @@
                 <category android:name="android.intent.category.Drawer" />
             </intent-filter>
         </activity>
+        <activity android:name=".Apropos"
+            android:parentActivityName=".Accueil"></activity>
     </application>
 
 </manifest>
