@@ -34,7 +34,9 @@
         <activity
             android:name=".Apropos"
             android:parentActivityName=".Accueil" />
-        <activity android:name=".Rayons"></activity>
+        <activity
+            android:name=".Rayons"
+            android:parentActivityName=".Accueil"/>
     </application>
 
 </manifest>
