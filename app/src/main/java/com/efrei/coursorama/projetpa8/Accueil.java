@@ -60,8 +60,6 @@ public class Accueil extends AppCompatActivity {
         String text = intent.getStringExtra(MainActivity.EXTRA_USER);
         Log.i("DEBUG", text);
 
-        System.out.println(LoadImageFromWebOperations("https://static.openfoodfacts.org/images/products/000/000/000/0017/front_fr.4.400.jpg"));
-
     }
 
 
@@ -97,7 +95,7 @@ public class Accueil extends AppCompatActivity {
 
     public void openRayons()
     {
-        Intent intent = new Intent(this, Accueil.class);
+        Intent intent = new Intent(this, Rayons.class);
         startActivity(intent);
     }
 
@@ -128,16 +126,6 @@ public class Accueil extends AppCompatActivity {
         mList.add(new Item(R.drawable.cocacola, "Coca Cola", "4☆"));
         mList.add(new Item(R.drawable.monster,"Monster", "4☆"));
 
-    }
-
-    public static Drawable LoadImageFromWebOperations(String url) {
-        try {
-            InputStream is = (InputStream) new URL(url).getContent();
-            Drawable d = Drawable.createFromStream(is, "src name");
-            return d;
-        } catch (Exception e) {
-            return null;
-        }
     }
 
     public void buildRecyclerView()
