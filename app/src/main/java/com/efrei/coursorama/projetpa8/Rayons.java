@@ -30,7 +30,8 @@ public class Rayons extends AppCompatActivity {
     {
         Log.i("DEBUG","position: " + mList.get(position).toString());
         String text = mList.get(position).toString();
-        Intent intent = new Intent(this, Apropos.class);
+        Intent intent = new Intent(this, Info_produit.class);
+        intent.putExtra("Position_value", text);
         //intent.putExtra(EXTRA_POSITION, text);
         startActivity(intent);
     }
